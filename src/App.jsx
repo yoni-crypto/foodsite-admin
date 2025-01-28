@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import {ToastContainer}from "react-toastify"
 
 const App = () => {
-  const url="http://localhost:4000"
+  const url="https://foodsite-backend.vercel.app"
   return (
     <div>
       <ToastContainer/>

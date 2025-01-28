@@ -1,0 +1,19 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 0 40px 0 40px;
+}
+.navbar .logo{
+    width: 40px;
+}
+.navbar .profile{
+    width: 40px;
+    border-radius: 50%;
+}
+@media (max-width:750px){
+    .navbar{
+        margin: 0;
+    }
+}
